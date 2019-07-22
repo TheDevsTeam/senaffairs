@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SenAffairs</title>
+    <%= csrf_meta_tags %>
+
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+
+    <link rel="stylesheet" href="/assets/theme/animate.min.css">
+		<link rel="stylesheet" href="/assets/theme/bootstrap.min.css">
+		<link rel="stylesheet" href="/assets/theme/font-awesome.min.css">
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" href="/assets/theme/templatemo-style.css">
+		<script src="/assets/theme/jquery.js"></script>
+		<script src="/assets/theme/bootstrap.min.js"></script>
+    <script src="/assets/theme/jquery.singlePageNav.min.js"></script>
+		<script src="/assets/theme/typed.js"></script>
+		<script src="/assets/theme/wow.min.js"></script>
+		<script src="/assets/theme/custom.js"></script>
+
+    <script type="text/javascript" src="//downloads.mailchimp.com/js/signup-forms/popup/unique-methods/embed.js" data-dojo-config="usePlainJson: true, isDebug: false"></script><script type="text/javascript">window.dojoRequire(["mojo/signup-forms/Loader"], function(L) { L.start({"baseUrl":"mc.us3.list-manage.com","uuid":"cf1ca134d33d285f6f992c22a","lid":"7eb96669e0","uniqueMethods":true}) })</script>
+
+  </head>
+
+  <body>
+    <%= yield %>
+  </body>
+</html>
