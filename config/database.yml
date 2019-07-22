@@ -7,6 +7,12 @@ default: &default
 development:
   <<: *default
   database: senaffairs_development
+  adapter: postgresql
+  encoding: unicode
+  host: localhost
+  pool: 5
+  username: senaffairs
+  password: boomboom0
 
 
 test:
