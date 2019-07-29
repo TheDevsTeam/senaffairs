@@ -169,7 +169,6 @@ header .social-icon li a
 		border: none;
 		box-shadow: none;
 		margin: 0 !important;
-		height: 80px;
 	}
 .navbar-default .navbar-brand
 	{
@@ -177,10 +176,9 @@ header .social-icon li a
 		font-size: 30px;
 		height: 70px;
 		line-height: 40px;
-		padding: 0;
-    width: 324px;
-    height: 80px;
-
+		padding: 12px 0px 10px 12px;
+		width: 315px;
+		height: 80px;
 	}
 .navbar-default .navbar-nav li a
 	{
@@ -219,6 +217,7 @@ header .social-icon li a
 		font-weight: 300;
 		font-size: 70px;
 		padding-bottom: 10px;
+		font-family: cursive;
 	}
 #home h1 span
 	{
