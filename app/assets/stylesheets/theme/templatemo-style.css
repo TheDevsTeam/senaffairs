@@ -5,7 +5,7 @@ http://www.templatemo.com/preview/templatemo_450_awesome
 
 body
 	{
- 		background: #303030;
+ 		background: #262626;
  		color: #ffffff;
 		font-family: 'Open Sans', sans-serif;
 		font-weight: 300;
@@ -276,7 +276,21 @@ header .social-icon li a
 		padding-left: 52px;
 	}
 /* end about */
-
+.list-group-item {
+	background: #262626;
+	border: none;
+}
+.list {
+    margin: 5px 0 10px;
+		font-size: 16px;
+}
+.media-body, .media-left, .media-right {
+    display: contents;
+    vertical-align: top;
+}
+.media:first-child {
+    margin-top: 10px;
+}
 /* start team */
 #team .team-wrapper
 	{
